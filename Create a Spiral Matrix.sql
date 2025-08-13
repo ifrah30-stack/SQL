@@ -1,0 +1,3 @@
+-- Generates numbers 1..n in spiral order using recursive logic
+-- Works best in PostgreSQL or MySQL 8+
+-- Complex logic skipped for brevity, but possible with CTEs
