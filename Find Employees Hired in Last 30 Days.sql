@@ -1,0 +1,2 @@
+SELECT * FROM Employees
+WHERE HireDate >= DATE_SUB(CURDATE(), INTERVAL 30 DAY);
