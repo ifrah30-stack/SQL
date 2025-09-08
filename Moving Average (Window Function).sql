@@ -1,0 +1,3 @@
+SELECT EmpID, Salary,
+       AVG(Salary) OVER (ORDER BY EmpID ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) AS MovingAvg
+FROM Employees;
