@@ -1,0 +1,4 @@
+CREATE TEMPORARY TABLE TempEmployees AS
+SELECT EmpID, EmpName
+FROM Employees
+WHERE Salary > 50000;
